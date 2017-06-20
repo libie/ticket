@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>InsertTicket</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.InsertTicket</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.Search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchByDate</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.SearchByDate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchAllCustom</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.SearchAllCustom</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchTicketByCID</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.SearchTicketByCID</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchCustomByDate</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.SearchCustomByDate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchFenleiByFangshiAndPiaozhong</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.SearchFenleiByFangshiAndPiaozhong</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateCustom</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.UpdateCustom</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateTicket</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.UpdateTicket</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deleteticket</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.Deleteticket</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCustom</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.DeleteCustom</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePassword</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.UpdatePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomFenye</servlet-name>
+    <servlet-class>com.lt.ticket.servlet.CustomFenye</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>InsertTicket</servlet-name>
+    <url-pattern>/InsertTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchByDate</servlet-name>
+    <url-pattern>/SearchByDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchAllCustom</servlet-name>
+    <url-pattern>/SearchAllCustom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchTicketByCID</servlet-name>
+    <url-pattern>/SearchTicketByCID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchCustomByDate</servlet-name>
+    <url-pattern>/SearchCustomByDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchFenleiByFangshiAndPiaozhong</servlet-name>
+    <url-pattern>/SearchFenleiByFangshiAndPiaozhong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustom</servlet-name>
+    <url-pattern>/UpdateCustom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTicket</servlet-name>
+    <url-pattern>/UpdateTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deleteticket</servlet-name>
+    <url-pattern>/Deleteticket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCustom</servlet-name>
+    <url-pattern>/DeleteCustom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePassword</servlet-name>
+    <url-pattern>/UpdatePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomFenye</servlet-name>
+    <url-pattern>/CustomFenye</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
