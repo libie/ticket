@@ -1,4 +1,6 @@
+
 package com.lt.ticket.dao.impl;
+
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -11,7 +13,13 @@ import com.lt.ticket.entity.KhsxFenlei;
 import com.lt.ticket.entity.FkfsFenlei;
 import com.lt.ticket.entity.Ticket;
 import com.lt.ticket.util.BaseDaojdbc;
-
+/**
+ * 
+ * @author li
+ * 日期：2017年8月1日 上午11:37:06
+ * ticket.com.lt.ticket.dao.impl.TicketDaoImpl.java
+ *
+ */
 public class TicketDaoImpl extends BaseDaojdbc implements TicketDao {
 
 	BaseDaojdbc bd = new BaseDaojdbc();
